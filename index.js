@@ -9,8 +9,15 @@ const {
   wallet_transactions,
   get_balance,
   transfer_token,
-  check_transfer_state,
 } = require("./helper_functions.js");
+
+const {
+  approve_usdc,
+  burn_usdc,
+  get_attestation,
+  mint_usdc,
+  check_mint_transaction,
+} = require("./cctp_functions.js");
 
 /*
 For this project, you need to create .env file with the following variables:
@@ -284,3 +291,42 @@ npm run start
 // }
 
 // Here, the state should say complete.
+
+// ----- CCTP -----
+// ----- Step 1 -----
+// Approve TokenMessenger Contract
+// approve_usdc();
+
+// Should return:
+// encryptedData: iCI1YIbtK3W0UCjpS8EjdZedi7gS1h6kYKxYFxK2fd5qrZEG...
+// {
+//   data: { id: '554000ed-fdca-5fd5-82d0-a033433559ae', state: 'INITIATED' }
+// }
+
+// ----- Step 2 -----
+// Burn USDC
+// burn_usdc();
+
+// Should return:
+// {
+//   data: { id: 'd8e0e629-9a74-5705-8863-71fa...', state: 'INITIATED' }
+// }
+
+// ----- Step 3 -----
+// Get Attestation
+// get_attestation();
+
+// Should return:
+// {
+//   attestation: '0xd4aeffb2f8a9be67d2df0e0573b83be32fb34b52632813ead541266d50ecf65a07156f4e5736d26316409915e4d43a1f3328cf0912cb2a92f6af03499ace71de1bd753435f873f0d670895fcbe15098858c4f96fa8c15d20f558d835656669cd59299883292019931e36f58c79c06735effd792f86cfe0e1bf4f86a8a2ea4d2b861c',
+//   status: 'complete'
+// }
+
+// ----- Step 4 -----
+// Mint USDC
+// mint_usdc();
+
+// Should return:
+// {
+//   data: { id: '317c264d-a507-5b2d-b91e-47f869793fd3', state: 'INITIATED' }
+// }

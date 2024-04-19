@@ -39,7 +39,7 @@ const generate_ciphertext = async (secret) => {
       md: forge.md.sha256.create(),
     },
   });
-  console.log("encryptedData:", forge.util.encode64(encryptedData));
+  // console.log("encryptedData:", forge.util.encode64(encryptedData));
   return forge.util.encode64(encryptedData);
 };
 
