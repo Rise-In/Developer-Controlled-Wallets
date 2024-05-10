@@ -97,7 +97,7 @@ npm run start
 //     walletSetId: <wallet set id>,
 //     custodyType: "DEVELOPER",
 //     address: <wallet address>,
-//     blockchain: "MATIC-MUMBAI",
+//     blockchain: "MATIC-AMOY",
 //     accountType: "SCA",
 //     updateDate: <date>,
 //     createDate: <date of the wallet creation>,
@@ -108,7 +108,7 @@ npm run start
 //     walletSetId: <wallet set id>,
 //     custodyType: "DEVELOPER",
 //     address: <wallet address>,
-//     blockchain: "MATIC-MUMBAI",
+//     blockchain: "MATIC-AMOY",
 //     accountType: "SCA",
 //     updateDate: <date>,
 //     createDate: <date of the wallet creation>,
@@ -130,7 +130,7 @@ npm run start
 //     walletSetId: <wallet set id>,
 //     custodyType: "DEVELOPER",
 //     address: <wallet address>,
-//     blockchain: "MATIC-MUMBAI",
+//     blockchain: "MATIC-AMOY",
 //     accountType: "SCA",
 //     updateDate: <date>,
 //     createDate: <date>,
@@ -141,7 +141,7 @@ npm run start
 //     walletSetId: <wallet set id>,
 //     custodyType: "DEVELOPER",
 //     address: <wallet address>,
-//     blockchain: "MATIC-MUMBAI",
+//     blockchain: "MATIC-AMOY",
 //     accountType: "SCA",
 //     updateDate: <date>,
 //     createDate: <date>,
@@ -161,7 +161,7 @@ npm run start
 //     walletSetId: <wallet set id>,
 //     custodyType: 'DEVELOPER',
 //     address: <wallet address>,
-//     blockchain: 'MATIC-MUMBAI',
+//     blockchain: 'MATIC-AMOY',
 //     accountType: 'SCA',
 //     updateDate: <date>,
 //     createDate: <date>
@@ -182,7 +182,7 @@ npm run start
 //   transactions: [
 //     {
 //       id: <transaction id>,
-//       blockchain: "MATIC-MUMBAI",
+//       blockchain: "MATIC-AMOY",
 //       tokenId: "7adb2b7d-c9cd-5164-b2d4-b73b088274dc",
 //       walletId: <wallet id>,
 //       sourceAddress: <address of the sending wallet>,
@@ -252,7 +252,7 @@ npm run start
 // response:  {
 //   transaction: {
 //     id: <transaction id>,
-//     blockchain: 'MATIC-MUMBAI',
+//     blockchain: 'MATIC-AMOY',
 //     tokenId: <token id>,
 //     walletId: <wallet id>,
 //     sourceAddress: <sending wallet address>,
